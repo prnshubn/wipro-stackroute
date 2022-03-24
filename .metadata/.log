@@ -798,3 +798,667 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 21:50:44.601
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2022-03-24 22:27:09.465 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data C:\Users\Priyanshu\Documents\Wipro\StackRoute Codes -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-03-24 22:27:15.214
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-24 22:27:15.214
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@cda988,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e92e9a2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-24 22:27:15.214
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c0a8787,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65cf8da0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-03-24 22:27:18.718
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-03-24 22:27:18.737
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-24 22:27:18.773
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Priyanshu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2022-03-24 22:27:21.276
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:27.897
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:27.902
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4e8b4697[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=1016)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:27.909
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:27.961
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:30.933
+!MESSAGE Boot LS startup time from start to initialized: 3005ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.136
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tWGcLvhUisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.143
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.149
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.157
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.170
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.189
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tWGcLvhU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.200
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.207
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU ArrayPairSum_C2_S1_Pc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.211
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.215
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.220
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU CalorieTracker_C1_S3_Pc3 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.224
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.228
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.233
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU CompareCustomers_C3_S7_Pc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.237
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.242
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.246
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU FencingBern_C1_S6_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.250
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.254
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.259
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU HourlyWageCalculator_C1_S6_Pc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.263
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.268
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.273
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU InternationalStandardBookNumber_C3_S7_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.277
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.282
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.286
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU MedicineTracker_C2_S1_Pc3 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.290
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.296
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.300
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU OakBridgeSchool_C2_S4_Mc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.305
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.310
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.315
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU Palindrome_C2_S5_Pc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.320
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.325
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.329
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU PizzaOrdering_C2_S7_Mc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.333
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.337
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.341
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU SellingPriceCalculation_C1_S3_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.345
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.351
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.355
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU ShortestWord_C2_S5_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.360
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.365
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.372
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU SmartTravelForex_C1_S6_Mc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.377
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.384
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.388
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU SortWords_C2_S5_Pc3 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.393
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.398
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.402
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU StudentMarks_C3_S6_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.407
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.411
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.415
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU UniqueArrays_C2_S1_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.419
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.425
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.430
+!MESSAGE buffering callback sts4.classpath.tWGcLvhU WeightedAverageCalculation_C1_S3_Pc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.434
+!MESSAGE executing callback sts4.classpath.tWGcLvhU 17 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:31.884
+!MESSAGE executing callback sts4.classpath.tWGcLvhU SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:27:45.254
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:27:45.265
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:48.386
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tWGcLvhU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:48.391
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.tWGcLvhU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:48.396
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:27:48.400
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tWGcLvhU => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:03.271
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:03.296
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:31.921
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:31.942
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:32.844
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:32.871
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.027
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.043
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.179
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.216
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.331
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.348
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.553
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.594
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.698
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.710
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.791
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.802
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.935
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:33.950
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.079
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.092
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.174
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.183
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.278
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.288
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.534
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.541
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.621
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.630
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.694
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.701
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.757
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:28:34.762
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2022-03-24 22:34:43.720 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-03-24 22:34:49.774
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-24 22:34:49.774
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@671c71e8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d5176d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-24 22:34:49.774
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31d791c0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@623c9988,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-03-24 22:34:52.822
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-03-24 22:34:52.846
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-24 22:34:52.875
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Priyanshu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:14.134
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:14.138
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7ce3bb64[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=1016)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:14.143
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:14.181
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:16.824
+!MESSAGE Boot LS startup time from start to initialized: 2669ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:16.995
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ljTMqOpGisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.000
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.005
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.008
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.012
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.015
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ljTMqOpG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.018
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.022
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG ArrayPairSum_C2_S1_Pc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.026
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.030
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.034
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG CalorieTracker_C1_S3_Pc3 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.038
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.042
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.045
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG CompareCustomers_C3_S7_Pc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.049
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.053
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.057
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG FencingBern_C1_S6_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.060
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.065
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.068
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG HourlyWageCalculator_C1_S6_Pc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.072
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.076
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.079
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG InternationalStandardBookNumber_C3_S7_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.083
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.086
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.090
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG MedicineTracker_C2_S1_Pc3 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.093
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.097
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.100
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG OakBridgeSchool_C2_S4_Mc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.103
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.107
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.110
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG Palindrome_C2_S5_Pc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.114
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.118
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.121
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG PizzaOrdering_C2_S7_Mc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.124
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.128
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.132
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG SellingPriceCalculation_C1_S3_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.135
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.139
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.143
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG ShortestWord_C2_S5_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.146
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.150
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.153
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG SmartTravelForex_C1_S6_Mc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.156
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.160
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.163
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG SortWords_C2_S5_Pc3 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.167
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.171
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.174
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG StudentMarks_C3_S6_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.177
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.181
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.184
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG UniqueArrays_C2_S1_Pc1 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.188
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.191
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.195
+!MESSAGE buffering callback sts4.classpath.ljTMqOpG WeightedAverageCalculation_C1_S3_Pc2 false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.198
+!MESSAGE executing callback sts4.classpath.ljTMqOpG 17 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:17.579
+!MESSAGE executing callback sts4.classpath.ljTMqOpG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:46.952
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ljTMqOpG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:46.956
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ljTMqOpG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:46.960
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-24 22:35:46.966
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ljTMqOpG => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:35:47.515
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:35:47.525
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:35:47.874
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:35:47.881
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:35:47.992
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:35:48.000
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:35:48.106
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:35:48.113
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:35:48.211
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-24 22:35:48.216
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 2 2 2022-03-24 22:35:48.626
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
