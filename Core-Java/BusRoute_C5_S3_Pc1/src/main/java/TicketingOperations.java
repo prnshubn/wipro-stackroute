@@ -36,7 +36,7 @@ public class TicketingOperations
     	}
         return list;
     }
-    //This method sorts the data based on the kms travelled by a bus (route)
+    //This method sorts the data based on the kms traveled by a bus (route)
     public List<TicketingData> sortByKmsTravelled(List<TicketingData> ticketingDataList)
     {
     	Collections.sort(ticketingDataList,new FloatComparator());
