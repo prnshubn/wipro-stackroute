@@ -1,0 +1,138 @@
+body {
+	background-color: #f9f4ed;
+}
+.sam {
+	font-family: "Caveat";
+	margin-left: 25%;
+	border: 5px solid;
+	border-radius: 12%;
+	font-size: 220%;
+	width: 5%;
+	text-align: center;
+}
+
+img {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: 27%;
+}
+
+.logic {
+	font-size: x-large;
+	font-family: "Dosis";
+	font-weight: 700;
+	background-color: #c66;
+	color: #f9f4ed;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	border-radius: 5px;
+}
+
+.sa {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-transform: uppercase;
+	font-family: "Dosis";
+	font-size: 600%;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.about {
+	font-family: Bitter;
+	font-weight: bolder;
+	font-size: 170%;
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+}
+
+.hr1 {
+	height: 15px;
+	background-color: #c66;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+	border-radius: 5px;
+}
+
+.h22 {
+	font-family: Dosis;
+	font-weight: lighter;
+	text-transform: uppercase;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 40%;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 50%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+h3 {
+	font-family: Dosis;
+	font-size: xx-large;
+	margin-bottom: 1px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-left: 8%;
+}
+
+p {
+	font-family: Bitter;
+	font-size: larger;
+	margin-top: 0px;
+	margin-left: 8%;
+}
+
+.hr2 {
+	width: 50%;
+	margin-bottom: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-li {
+	font-family: Dosis;
+	font-size: xx-large;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-left: 15%;
+}
+
+footer {
+	width: 50%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: 500;
+	font-family: Dosis;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
