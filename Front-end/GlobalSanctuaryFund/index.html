@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+			nav {
+				float: left;
+				margin: 0;
+				overflow: hidden;
+				text-align: center;
+			}
+
+			nav ul {
+				margin: 0;
+				padding: 0;
+			}
+
+			nav ul li {
+				display: inline-block;
+				list-style-type: none;
+			}
+
+			nav > ul > li > a {
+				color: #aaa;
+				display: block;
+				line-height: 2em;
+				padding: 0.5em 1em;
+				text-decoration: none;
+			}
+
+			.logo-img {
+				float: left;
+				position: relative;
+				margin: 10px 15px 15px 10px;
+			}
+			.bg-div {
+				background: #333;
+				overflow: hidden;
+			}
+			.left-side {
+				margin-right: 100px;
+			}
+			.topnav-right {
+				float: right;
+				padding: 20px 20px 20px 20px;
+				margin-right: 20px;
+				margin-left: 20px;
+			}
+			.img-text {
+				position: absolute;
+				z-index: 999;
+				margin: 0 auto;
+				left: 0;
+				right: 0;
+				top: 70%;
+				text-align: center;
+				width: 100%;
+				color: white;
+				font-size: 50px;
+				font-family: Open Sans;
+			}
+			.texts {
+				text-align: center;
+			}
+			hr {
+				position: relative;
+				width: 120px;
+			}
+			.mycontainer1 {
+				display: flex;
+				flex-direction: column;
+			}
+			.mycontainer {
+				display: flex;
+				flex-direction: row;
+				margin-top: 60px;
+				margin-left: 20%;
+				margin-right: 20%;
+			}
+			.mycontainer-child {
+				width: 100px;
+				margin: 5px;
+				padding: 5px;
+			}
+		</style>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Condensed"
+			rel="stylesheet"
+		/>
+		<title>Global Sanctuary Fund</title>
+	</head>
+	<body>
+		<div class="bg-div">
+			<img
+				class="logo-img"
+				src="assets/deer.png"
+				width="50px"
+				height="50px"
+				alt="align box"
+				align="CENTER"
+			/>
+			<nav>
+				<ul>
+					<li><a href="#">OUR WORK</a></li>
+					<li><a href="#">PEOPLE</a></li>
+					<li><a href="#">PLACES</a></li>
+					<li class="left-side"><a href="#">WILDLIFE</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li class="left-side"><a href="#">HOW TO HELP</a></li>
+					<div class="topnav-right">
+						<button>DONATE</button>
+						&nbsp;
+						<button>ADOPT</button>
+					</div>
+				</ul>
+			</nav>
+		</div>
+		<div class="header">
+			<img src="assets/people-together-shorter.jpg" width="100%" />
+			<h3 class="img-text">CINCINNATI TAKES ON THE CLIMATE CRISIS</h3>
+		</div>
+		<div>
+			<div class="texts">
+				<hr />
+				GSF'S MISSION
+				<hr />
+				<br />
+				Our mission is to conserve nature and reduce the most pressing
+				threats to the diversity of life on Earth.
+				<br />
+				We organize our work around these six areas:
+			</div>
+			<div class="container">
+				<div class="container1">
+					<div class="mycontainer-child">
+						<img
+							src="assets/goal-pillar-food.jpg"
+							style="border-radius: 50%"
+						/>
+					</div>
+					<div class="mycontainer-child">FOOD</div>
+				</div>
+				<div class="container1">
+					<div class="mycontainer-child">
+						<img
+							src="assets/goal-pillar-climate.jpg"
+							style="border-radius: 50%"
+						/>
+					</div>
+					<div class="mycontainer-child">CLIMATE</div>
+				</div>
+				<div class="container1">
+					<div class="mycontainer-child">
+						<img
+							src="assets/goal-pillar-fresh-water.jpg"
+							style="border-radius: 50%"
+						/>
+					</div>
+					<div class="mycontainer-child">FRESH WATER</div>
+				</div>
+				<div class="container1">
+					<div class="mycontainer-child">
+						<img
+							src="assets/goal-pillar-wildlife.jpg"
+							style="border-radius: 50%"
+						/>
+					</div>
+					<div class="mycontainer-child">WILDLIFE</div>
+				</div>
+				<div class="container1">
+					<div class="mycontainer-child">
+						<img
+							src="assets/goal-pillar-forests.jpg"
+							style="border-radius: 50%"
+						/>
+					</div>
+					<div class="mycontainer-child">FOREST</div>
+				</div>
+				<div class="container1">
+					<div class="mycontainer-child">
+						<img
+							src="assets/goal-pillar-oceans.jpg"
+							style="border-radius: 50%"
+						/>
+					</div>
+					<div class="mycontainer-child">OCEAN</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
