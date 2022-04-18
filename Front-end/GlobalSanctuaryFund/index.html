@@ -1,197 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<style>
-			nav {
-				float: left;
-				margin: 0;
-				overflow: hidden;
-				text-align: center;
-			}
-
-			nav ul {
-				margin: 0;
-				padding: 0;
-			}
-
-			nav ul li {
-				display: inline-block;
-				list-style-type: none;
-			}
-
-			nav > ul > li > a {
-				color: #aaa;
-				display: block;
-				line-height: 2em;
-				padding: 0.5em 1em;
-				text-decoration: none;
-			}
-
-			.logo-img {
-				float: left;
-				position: relative;
-				margin: 10px 15px 15px 10px;
-			}
-			.bg-div {
-				background: #333;
-				overflow: hidden;
-			}
-			.left-side {
-				margin-right: 100px;
-			}
-			.topnav-right {
-				float: right;
-				padding: 20px 20px 20px 20px;
-				margin-right: 20px;
-				margin-left: 20px;
-			}
-			.img-text {
-				position: absolute;
-				z-index: 999;
-				margin: 0 auto;
-				left: 0;
-				right: 0;
-				top: 70%;
-				text-align: center;
-				width: 100%;
-				color: white;
-				font-size: 50px;
-				font-family: Open Sans;
-			}
-			.texts {
-				text-align: center;
-			}
-			hr {
-				position: relative;
-				width: 120px;
-			}
-			.mycontainer1 {
-				display: flex;
-				flex-direction: column;
-			}
-			.mycontainer {
-				display: flex;
-				flex-direction: row;
-				margin-top: 60px;
-				margin-left: 20%;
-				margin-right: 20%;
-			}
-			.mycontainer-child {
-				width: 100px;
-				margin: 5px;
-				padding: 5px;
-			}
-		</style>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GSF's Mission</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Open+Sans"
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap"
 			rel="stylesheet"
 		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto+Condensed"
-			rel="stylesheet"
-		/>
-		<title>Global Sanctuary Fund</title>
 	</head>
 	<body>
-		<div class="bg-div">
-			<img
-				class="logo-img"
-				src="assets/deer.png"
-				width="50px"
-				height="50px"
-				alt="align box"
-				align="CENTER"
-			/>
-			<nav>
-				<ul>
-					<li><a href="#">OUR WORK</a></li>
-					<li><a href="#">PEOPLE</a></li>
-					<li><a href="#">PLACES</a></li>
-					<li class="left-side"><a href="#">WILDLIFE</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li class="left-side"><a href="#">HOW TO HELP</a></li>
-					<div class="topnav-right">
-						<button>DONATE</button>
-						&nbsp;
-						<button>ADOPT</button>
-					</div>
-				</ul>
-			</nav>
+		<nav class="navbar">
+			<div class="logo">
+				<img src="assets/deer.png" style="width: 75px; height: 60px" />
+			</div>
+
+			<ul class="nav-links">
+				<div class="menu">
+					<li><a href="/" style="color: #ffffff">OUR WORK</a></li>
+					<li><a href="/" style="color: #ffffff">PEOPLE</a></li>
+					<li><a href="/" style="color: #ffffff">PLACES</a></li>
+					<li><a href="/" style="color: #ffffff">WILD LIFE</a></li>
+				</div>
+			</ul>
+			<ul class="nav-links">
+				<div class="menu" style="font-size: small">
+					<li><a href="/" style="color: #cccccc">ABOUT</a></li>
+					<li><a href="/" style="color: #cccccc">HOW TO HELP</a></li>
+				</div>
+			</ul>
+			<ul class="nav-links">
+				<div class="menu">
+					<li
+						style="
+							background-color: #de3831;
+							height: 50px;
+							padding-top: 13px;
+						"
+					>
+						<a href="/">DONATE | +</a>
+					</li>
+					<li
+						style="
+							background-color: #d55c19;
+							height: 50px;
+							padding-top: 13px;
+						"
+					>
+						<a href="/">ADOPT | +</a>
+					</li>
+				</div>
+			</ul>
+		</nav>
+
+		<div class="imgbox">
+			<img class="center-fit" src="assets/people-together-shorter.jpg" />
+			<div class="centered">CINCINNATI TAKES ON THE CLIMATE CRISIS</div>
 		</div>
-		<div class="header">
-			<img src="assets/people-together-shorter.jpg" width="100%" />
-			<h3 class="img-text">CINCINNATI TAKES ON THE CLIMATE CRISIS</h3>
+
+		<div class="r-image">
+			<hr />
+			<h3>GFS'S MISSION</h3>
+			<hr />
+			<h2>
+				Our mission is to conserve the nature and reduce the most
+				pressing threats to the diversity of life on Earth.
+			</h2>
+			<h4>We organize our work around these six areas:</h4>
+
+			<div class="fv-img-text">
+				<div>
+					<img src="assets/goal-pillar-food.jpg" />
+					<h1 style="color: #b71234">FOOD</h1>
+				</div>
+
+				<div>
+					<img src="assets/goal-pillar-climate.jpg" />
+					<h1 style="color: #d55c19">CLIMATE</h1>
+				</div>
+
+				<div>
+					<img src="assets/goal-pillar-fresh-water.jpg" />
+					<h1 style="color: #00675a">freshwater</h1>
+				</div>
+
+				<div>
+					<img src="assets/goal-pillar-wildlife.jpg" />
+					<h1 style="color: #53284f">WILDLIFE</h1>
+				</div>
+
+				<div>
+					<img src="assets/goal-pillar-forests.jpg" />
+					<h1 style="color: #55601c">forest</h1>
+				</div>
+
+				<div>
+					<img src="assets/goal-pillar-oceans.jpg" />
+					<h1 style="color: #4fb0dd">ocean</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="images">
+			<div>
+				<img
+					src="assets/Polar_bear_travel_WW266640.jpg"
+					style="width: 25%"
+				/>
+				<img src="assets/Foxes.jpg" style="width: 25%" />
+				<img src="assets/mountain-valley.jpg" style="width: 50%" />
+			</div>
+
+			<div>
+				<img src="assets/binocs.jpg" style="width: 50%" />
+				<img src="assets/people.jpeg" style="width: 25%" />
+				<img src="assets/sun-forest-people.jpg" style="width: 25%" />
+			</div>
+
+			<div>
+				<img src="assets/calendar-2021-double.jpg" />
+				<img src="assets/honeybees.jpg" />
+			</div>
+		</div>
+
+		<div class="r-image" style="background-color: white; height: 810px">
+			<hr />
+			<h3>HOW YOU CAN HELP</h3>
+			<hr />
+			<div class="image2">
+				<div>
+					<img
+						src="assets/turtle.jpg"
+						style="width: 100%; height: 100%"
+					/>
+					<p class="turtle">
+						Join the fight against plastic pollution
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/shutterstock_1742657933.jpg"
+						style="width: 100%; height: 75%"
+					/>
+					<h2>RACE FOR LOVE</h2>
+					<p class="running">
+						This Valentine's Day protect the wildlife and nature you
+						<br />
+						love by joining our live virtual 5K, 10K, or half
+						marathon
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="btm-menu">
+			<button class="btn">LOG IN</button>
+
+			<hr />
+
+			<ul>
+				<li><a href="">About</a></li>
+				<li><a href="">Careers</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="">News & Press</a></li>
+				<li><a href="">Help</a></li>
+			</ul>
+		</div>
+
+		<div class="foot">
+			<div class="deer">
+				<img
+					src="assets/deer.png"
+					style="width: 120%; height: auto; margin: 0; padding: 0%"
+				/>
+			</div>
+			<div>
+				<h4 style="margin-bottom: 20px">Global Scantury Fund</h4>
+				<p>
+					1250 24th Street, N.W.
+					<br />
+					Washington, D.C. 20037
+				</p>
+			</div>
+			<div>
+				<h4 style="margin-bottom: 20px; text-transform: uppercase">
+					Connect with us
+				</h4>
+				<div>
+					<ul class="c-icon">
+						<li>
+							<a href=""><img src="assets/Facebook.png" /></a>
+						</li>
+						<li>
+							<a href=""><img src="assets/Twitter.png" /></a>
+						</li>
+						<li>
+							<a href=""><img src="assets/Instagram.png" /></a>
+						</li>
+						<li>
+							<a href=""><img src="assets/Youtube.png" /></a>
+						</li>
+						<li>
+							<a href=""><img src="assets/RSS.png" /></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div>
+				Global Sanctuary Fund Inc. is a nonprofit, tax-exempt charitable
+				organization<br />
+				(tax ID number 52-1693387) under Section 501(c)(3) of the
+				Internal Revenue <br />Code. Donations are tax-deductible as
+				allowed by law.
+			</div>
 		</div>
 		<div>
-			<div class="texts">
-				<hr />
-				GSF'S MISSION
-				<hr />
-				<br />
-				Our mission is to conserve nature and reduce the most pressing
-				threats to the diversity of life on Earth.
-				<br />
-				We organize our work around these six areas:
-			</div>
-			<div class="container">
-				<div class="container1">
-					<div class="mycontainer-child">
-						<img
-							src="assets/goal-pillar-food.jpg"
-							style="border-radius: 50%"
-						/>
-					</div>
-					<div class="mycontainer-child">FOOD</div>
-				</div>
-				<div class="container1">
-					<div class="mycontainer-child">
-						<img
-							src="assets/goal-pillar-climate.jpg"
-							style="border-radius: 50%"
-						/>
-					</div>
-					<div class="mycontainer-child">CLIMATE</div>
-				</div>
-				<div class="container1">
-					<div class="mycontainer-child">
-						<img
-							src="assets/goal-pillar-fresh-water.jpg"
-							style="border-radius: 50%"
-						/>
-					</div>
-					<div class="mycontainer-child">FRESH WATER</div>
-				</div>
-				<div class="container1">
-					<div class="mycontainer-child">
-						<img
-							src="assets/goal-pillar-wildlife.jpg"
-							style="border-radius: 50%"
-						/>
-					</div>
-					<div class="mycontainer-child">WILDLIFE</div>
-				</div>
-				<div class="container1">
-					<div class="mycontainer-child">
-						<img
-							src="assets/goal-pillar-forests.jpg"
-							style="border-radius: 50%"
-						/>
-					</div>
-					<div class="mycontainer-child">FOREST</div>
-				</div>
-				<div class="container1">
-					<div class="mycontainer-child">
-						<img
-							src="assets/goal-pillar-oceans.jpg"
-							style="border-radius: 50%"
-						/>
-					</div>
-					<div class="mycontainer-child">OCEAN</div>
-				</div>
-			</div>
+			<ul class="privacy">
+				<li>
+					<a href="">Site Terms</a>
+				</li>
+				<li>
+					<a href="">Privacy Policy/Your Policy Rights</a>
+				</li>
+				<li>
+					<a href="">State Disclosures</a>
+				</li>
+			</ul>
+		</div>
+		<div style="text-align: center; margin: 1%">
+			© 2021 Global Sanctuary Fund. GSF® and ©1986 Deer Symbol are owned
+			by GSF. All rights reserved.
 		</div>
 	</body>
 </html>
