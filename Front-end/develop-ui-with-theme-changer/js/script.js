@@ -24,7 +24,28 @@ const themes = {
 }
 
 function changeTheme(event) {
-    
+
+ 
+
+
+  const r=event.srcElement.id;
+   
+   if(r=='cool') {
+       
+        
+    document.body.style.backgroundColor=themes.cool.backgroundColor;
+       document.body.style.color=themes.cool.color;
+    }
+    else if(r=='bright') {
+        document.body.style.color=themes.bright.color;
+        document.body.style.backgroundColor=themes.bright.backgroundColor;
+        
+    }
+    else if(r=='fiery') {
+        document.body.style.color=themes.fiery.color;
+        document.body.style.backgroundColor=themes.fiery.backgroundColor;
+        
+    }
 }
 
 module.exports = changeTheme
