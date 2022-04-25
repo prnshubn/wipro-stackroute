@@ -12,7 +12,7 @@ The provided phoneNumber is a valid phoneNumber if its value matches with any of
 +1 099 999 9999, 
 +1 099 999-9999, 
 +1 (099) 999-9999, 
-+1 099.999.9999
++1 099.999.9999,
 +10999999999, 
 +1099-999-9999, 
 +1(099)-999-9999, 
@@ -30,5 +30,10 @@ The provided phoneNumber is a valid phoneNumber if its value matches with any of
 
 module.exports = function checkPhoneNumber(phoneNumber) {
 	// Provide Solution Code Here
-  var n1=
+	var check = /^\+1?[ ]?\(?(\d{3})\)?[-. ]?(\d{3})[-. ]?(\d{4})$/;
+	if (phoneNumber.match(check)) {
+		return true;
+	} else {
+		return false;
+	}
 };
