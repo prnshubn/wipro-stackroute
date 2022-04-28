@@ -18,16 +18,16 @@
   "dependencies": {
     "chai": "^4.1.2",
     "chai-dom": "^1.11.0",
-    "mocha": "^5.0.5"
+    "mkdirp": "^1.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/node": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
-    "eslint": "^8.11.0",
-    "eslint-plugin-import": "^2.25.4",
     "chai": "^4.1.2",
     "chai-dom": "^1.11.0",
-    "mocha": "^5.0.5"
+    "eslint": "^8.11.0",
+    "eslint-plugin-import": "^2.25.4",
+    "mocha": "1.0"
   }
 }
