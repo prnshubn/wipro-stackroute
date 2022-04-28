@@ -47,7 +47,7 @@ const play = (event) => {
   count == 0 ? (count = 1) : (count = 0);
   // disable the button clicked
   document.getElementById(box).disabled = true;
-  let turnPlayedBy = count == 0 ? "X" : "O";
+  let turnPlayedBy = count == 0 ? "O" : "X";
   document.getElementById(
     "next-player"
   ).innerHTML = `Turn Played By : ${turnPlayedBy}`;
