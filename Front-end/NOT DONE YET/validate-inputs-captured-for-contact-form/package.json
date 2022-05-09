@@ -1,0 +1,28 @@
+{
+  "name": "validate-inputs-captured-for-contact-form",
+  "version": "1.0.0",
+  "description": "Prime Solutions is an IT solutions provider company who have earned reputation in providing IT solutions in different business domains",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "jest": "^27.4.5",
+    "chai": "^4.1.2",
+    "eslint": "^4.0.0",
+    "mocha": "^5.0.5",
+    "mocha-jsdom": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "eslint": "./node_modules/.bin/eslint *.js '**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
