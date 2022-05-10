@@ -1,0 +1,23 @@
+<header>
+  <h1 class="text-center my-4">KeepNote App</h1>
+  <app-add-note (noteAdded)="onNoteAdded($event)"></app-add-note>
+  <masonry-component
+    [noOfColumns]="4"
+    [columnWidth]="100"
+    [gutter]="30"
+    [totalWidth]="100"
+  >
+    <div
+      class="card bg-warning text-light mb-4"
+      *ngFor="let note of notes"
+      style="page-break-inside: avoid;"
+    >
+      <div class="card-body">
+        <h5 class="card-title">{{ note.title }}</h5>
+        <p class="card-text">
+          {{ note.content }}
+        </p>
+      </div>
+    </div>
+  </masonry-component>
+</header>

@@ -1,0 +1,22 @@
+<header>
+  <h1>Imagegram App</h1>
+  <masonry-component
+    [noOfColumns]="5"
+    [columnWidth]="100"
+    [gutter]="30"
+    [totalWidth]="100"
+  >
+    <div
+      class="card my-4 bg-success text-light"
+      *ngFor="let img of images"
+      style="page-break-inside: avoid;"
+    >
+      <img src="{{ img.imageUrl }}" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">
+          {{ img.caption }}
+        </p>
+      </div>
+    </div>
+  </masonry-component>
+</header>

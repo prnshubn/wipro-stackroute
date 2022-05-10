@@ -1,0 +1,14 @@
+<form class="container my-5" (ngSubmit)="onSubmit()">
+  <div class="mb-3">
+    <label for="noteContent" class="form-label">Enter your note</label>
+    <input
+      type="text"
+      class="form-control"
+      id="noteContent"
+      [(ngModel)]="model.content"
+    />
+  </div>
+  <button type="submit" class="btn btn-primary">
+    Submit
+  </button>
+</form>
