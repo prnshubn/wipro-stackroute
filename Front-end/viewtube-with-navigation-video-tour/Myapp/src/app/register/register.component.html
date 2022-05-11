@@ -1,0 +1,24 @@
+<form class="example-form" >
+    <h2>Register</h2>
+    <mat-form-field class="example-full-width" >
+      <mat-label>Email Address</mat-label>
+      <input matInput>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" >
+        <mat-label>Password</mat-label>
+        <input type=password matInput>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" >
+        <mat-label>Confirm Password</mat-label>
+        <input type=password matInput>
+      </mat-form-field>
+
+      <span><input type="checkbox" id = "checkbox"> <label>Allow Scheduling Live Stream</label> </span>
+      <div>
+      <button id="register" mat-stroked-button>Register</button>
+      <button id="login" routerLink="/login" mat-stroked-button>Login</button>
+    </div>
+   
+  </form>
