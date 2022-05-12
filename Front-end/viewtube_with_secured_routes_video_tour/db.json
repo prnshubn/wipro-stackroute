@@ -1,0 +1,11 @@
+{
+  "Users": [
+    {
+      "email": "yashdeidanka456@gmail.com",
+      "password": "123",
+      "passwordConfirm": "123",
+      "checkBox": true,
+      "id": 1
+    }
+  ]
+}

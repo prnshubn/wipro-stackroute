@@ -1,0 +1,23 @@
+<form class="example-form"[formGroup]="LoginForm" (submit)="onLogin()">
+  <h2>Login</h2>
+  <mat-form-field class="example-full-width" >
+    <mat-label>Email Address</mat-label>
+    <input matInput type="email" name="Email" formControlName="email" placeholder="Enter your Email">
+    <mat-error *ngIf="LoginForm.hasError('required','email')">*required</mat-error>
+    <mat-error *ngIf="LoginForm.hasError('pattern','email')">*Invalid Email</mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" >
+      <mat-label>Password</mat-label>
+      <input type=password matInput  placeholder="Enter your password" formControlName="password" name="Password">
+      <mat-error *ngIf="LoginForm.hasError('required','password')">*required</mat-error>
+    </mat-form-field>
+
+   
+    <div>
+      <button routerLink="/register" id="register" mat-stroked-button>Register</button>
+      <button id="login" [disabled]="LoginForm.invalid" mat-stroked-button>Login</button>
+    </div>
+    
+
+</form>

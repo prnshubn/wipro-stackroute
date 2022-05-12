@@ -1,0 +1,30 @@
+<mat-sidenav-container class="example-container" autosize>
+  <mat-sidenav #drawer class="example-sidenav" mode="side">
+   <h1>MENU</h1>
+   <hr>  
+    <mat-nav-list>
+      
+      <a mat-list-item routerLink="/studio/upload"><mat-icon class="nav-icons" aria-hidden="false"   >file_upload</mat-icon>Upload Video</a>
+      
+      <a mat-list-item routerLink="/studio/live" ><mat-icon  class="nav-icons" aria-hidden="false"   >video_call</mat-icon>Live</a>
+
+      <!-- <a mat-list-item routerLink="/login" >Login</a> -->
+      <hr>
+      <a mat-list-item routerLink="/" ><mat-icon class="nav-icons" aria-hidden="false" matRipple matTooltip="Notifications" >home</mat-icon>Home</a>
+      <a mat-list-item><mat-icon class="nav-icons" aria-hidden="false" matRipple matTooltip="Notifications" >explore</mat-icon>Explore</a>
+      <a mat-list-item><mat-icon class="nav-icons" aria-hidden="false" matRipple matTooltip="Notifications" >subscriptions</mat-icon>Subscriptions</a>
+      <a mat-list-item><mat-icon class="nav-icons" aria-hidden="false" matRipple matTooltip="Notifications" >my_library_add</mat-icon>Library</a>
+      <a mat-list-item><mat-icon class="nav-icons" aria-hidden="false" matRipple matTooltip="Notifications" >history</mat-icon>History</a>
+      <hr>
+      <button id="login" *ngIf="!loggedIn" routerLink="/login" mat-raised-button>Login</button>
+      <button id="logout" *ngIf="loggedIn" (click)="logout()" routerLink="/" mat-stroked-button>Logout</button>
+    </mat-nav-list>     
+  </mat-sidenav>
+
+  
+
+  <app-header (sidenav)="drawer.toggle()"></app-header>
+ 
+  <router-outlet></router-outlet>
+
+</mat-sidenav-container>

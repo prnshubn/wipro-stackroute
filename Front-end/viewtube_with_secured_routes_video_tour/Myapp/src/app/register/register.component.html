@@ -1,0 +1,31 @@
+<form class="example-form"[formGroup]="registerForm" (submit)="onRegister()" >
+  <h2>Register</h2>
+  <mat-form-field class="example-full-width" >
+    <mat-label>Email Address</mat-label>
+    <input matInput type="email" name="Email" formControlName="email" placeholder="Enter your Email">
+    <mat-error *ngIf="registerForm.hasError('required','email')">*required</mat-error>
+    <mat-error *ngIf="registerForm.hasError('pattern','email')">*Invalid Email</mat-error>
+  </mat-form-field>
+
+
+  <mat-form-field class="example-full-width" >
+      <mat-label>Password</mat-label>
+      <input type=password matInput placeholder="Enter your password" formControlName="password" name="Password">
+      <mat-error *ngIf="registerForm.hasError('required','password')">*required</mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" >
+      <mat-label>Confirm Password</mat-label>
+      <input type=password matInput placeholder="Confirm Password" formControlName="passwordConfirm" name="PasswordConfirm">
+      <mat-error *ngIf="registerForm.hasError('required','passwordConfirm')">*required</mat-error>
+      <mat-error *ngIf="!registerForm.errors?.confirmedValidator">Password Mismatch</mat-error>
+    </mat-form-field>
+    
+    <span><input type="checkbox" id = "checkbox" formControlName="checkBox"> <label>Allow Scheduling Live Stream</label> </span>
+    <div>
+    <button id="register" [disabled]="registerForm.invalid" type="submit" mat-stroked-button>Register</button>
+
+    <button id="login"  routerLink="/login" mat-stroked-button>Login</button>
+  </div>
+ 
+</form>

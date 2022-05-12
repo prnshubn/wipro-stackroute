@@ -1,0 +1,42 @@
+/* *{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2rem;
+}
+.container{
+    margin: 1rem;
+    padding: 1rem;
+} */
+*{
+    padding: 5px;
+  }
+  
+  #addTitle{
+    width: 60%;
+  }
+  
+  #testingHeight{
+    height: 300px;
+  }
+  
+  #testingHeight1{
+  
+    height: 150px;
+  }
+  
+  #TomakeWidth{
+    width: 50%;
+  }
+  
+  .button{
+    margin-left: 10px;
+  }
+  
+  #Guest{
+    margin-bottom: 300px;
+  }
+  
+  .example-full-width1{
+    width: 35%;
+  }
