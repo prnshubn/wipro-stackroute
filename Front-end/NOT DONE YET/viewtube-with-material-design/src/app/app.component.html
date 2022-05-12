@@ -1,0 +1,31 @@
+<mat-sidenav-container class="example-container" autosize>
+  <mat-sidenav #drawer class="example-sidenav" mode="side">
+    <mat-nav-list>
+      <a mat-list-item>
+        <mat-icon class="nav-icons" aria-hidden="false" matRipple matTooltip="Notifications">home</mat-icon>Home
+      </a>
+      <a mat-list-item>
+        <mat-icon class="nav-icons" aria-hidden="false" matRipple matTooltip="Notifications">explore</mat-icon>Explore
+      </a>
+      <a mat-list-item>
+        <mat-icon class="nav-icons" aria-hidden="false" matRipple matTooltip="Notifications">subscriptions</mat-icon>
+        Subscriptions
+      </a>
+      <a mat-list-item>
+        <mat-icon class="nav-icons" aria-hidden="false" matRipple matTooltip="Notifications">my_library_add</mat-icon>
+        Library
+      </a>
+      <a mat-list-item>
+        <mat-icon class="nav-icons" aria-hidden="false" matRipple matTooltip="Notifications">history</mat-icon>History
+      </a>
+    </mat-nav-list>
+
+  </mat-sidenav>
+  <app-header (sidenav)="drawer.toggle()"></app-header>
+  <app-chips-bar></app-chips-bar>
+
+  <app-video-content></app-video-content>
+
+
+
+</mat-sidenav-container>

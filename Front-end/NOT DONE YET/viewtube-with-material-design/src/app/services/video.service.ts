@@ -19,9 +19,10 @@ export class VideoService {
           "channelId": "UCqrILQNl5Ed9Dz6CGMyvMTQ",
           "title": "My Advice for New Programmers (Things I Wish I Knew)",
           "description": "Want to master React JS and land a job 👉 https://CleverProgrammer.com/pwj\n\nIn this video I talk about what you need to master to get past being a beginner developer.\n\n#coding #advice #programming",
+          "Text" : "9.sfdfhjeafgrfjykuthdfhfbfhffhfh56",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/ByOPqVzGvJw/default.jpg",
+              "url": "https://i.ytimg.com/vi/ByOPqVzGvJw/default.jpg",  
               "width": 120,
               "height": 90
             },

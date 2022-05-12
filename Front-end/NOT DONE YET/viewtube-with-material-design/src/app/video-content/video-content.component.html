@@ -5,3 +5,18 @@
     duration since last published 
     number of views
 -->
+<div class="grid">
+
+    <ng-container *ngFor="let video of content">  
+    <mat-card class="example-card"matRipple>
+       <img mat-card-image src="{{video.snippet.thumbnails.high.url}}"  matBadge="Hello" matBadgePosition="after" matBadgeColor="accent">
+      <p id="timeStamp"> {{video.contentDetails.length}} </p>
+        <mat-card-content>
+        
+          <h4>{{video.snippet.title.slice(0, 55)|titlecase}}... </h4>
+          <p>{{video.snippet.channelTitle}}</p>
+          <p class="para">{{video.statistics.viewCount}} views.</p><p class=" para p">{{ video.snippet.relativeTime}}</p>
+        </mat-card-content>
+      </mat-card>
+    </ng-container>
+    </div>

@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ChipsBarComponent implements OnInit {
 
   constructor() { }
+  showFiller = true;
 
   ngOnInit(): void {
   }
