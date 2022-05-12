@@ -1,0 +1,8 @@
+mat-chip{
+    cursor: pointer;
+}
+
+.container{
+    padding: 1.2rem;
+    background-color: #444;
+}

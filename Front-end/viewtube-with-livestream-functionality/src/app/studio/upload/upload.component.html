@@ -1,0 +1,180 @@
+<div class="flex-box">
+    <form #VideoForm="ngForm" (ngSubmit)="onSubmit(VideoForm)" novalidate class="example-form">
+        
+        <h1>Video Details</h1>
+        <button  [disabled]="VideoForm.invalid"  mat-raised-button color="accent">Save</button>
+    
+    
+        <mat-form-field class="example-full-width" appearance="outline">
+          <input  class="form-input" matInput placeholder="Video URL*"required  pattern="(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"  #name="ngModel" [class.is-invalid]="name.invalid && name.touched" value="" [(ngModel)]="videoUrl" name="video_url">
+    
+            <mat-error *ngIf="name.errors && name.errors.required && name.touched">*required</mat-error>
+            <mat-error *ngIf="name.errors && name.errors.pattern && name.touched">*invalid pattern</mat-error>
+    
+         
+        </mat-form-field>
+    
+        <mat-form-field class="example-full-width" appearance="outline">
+            <input matInput placeholder="Title*"required pattern="^.{5,121}$" #Title="ngModel" [class.is-invalid]="Title.invalid && Title.touched" [(ngModel)]="title" name="Title">
+            
+            <mat-error *ngIf="Title.errors && Title.errors.required && Title.touched">*required</mat-error>
+            <mat-error *ngIf="Title.errors && Title.errors.pattern && Title.touched">*Maximum 120 characters are allowed</mat-error>
+    
+          </mat-form-field>
+    
+        <mat-form-field class="example-full-width" appearance="outline">
+          <textarea matInput placeholder="Description" required #Description="ngModel" [class.is-invalid]="Description.invalid && Description.touched" [(ngModel)]="description"   name="description"></textarea>
+          <mat-error *ngIf="Description.invalid">*required</mat-error>
+        </mat-form-field>
+    
+        <mat-form-field class="example-full-width" appearance="outline">
+            <input matInput placeholder="Video Duration" required pattern="(?:[01]\d|2[0-3]):(?:[0-5]\d):(?:[0-5]\d)" #Duration="ngModel" [class.is-invalid]="Duration.invalid && Duration.touched"  [(ngModel)]="duration" name="Video_Duration">
+            <mat-error *ngIf="Duration.errors && Duration.errors.required && Duration.touched">*required</mat-error>
+            <mat-error *ngIf="Duration.errors && Duration.errors.pattern && Duration.touched">*invalid pattern</mat-error>
+    
+        </mat-form-field>
+    
+        <mat-form-field class="example-full-width" appearance="outline">
+            <input matInput placeholder="Channel Title" required #Channel="ngModel" [(ngModel)]="channel" name="Channel_Title">
+        </mat-form-field>
+    
+        <h2>Visibility</h2>
+        <mat-radio-group required
+          aria-labelledby="example-radio-group-label"
+          class="example-radio-group"
+          name="visibility" 
+          [(ngModel)]="visibility">
+          <mat-radio-button  *ngFor="let visibility of visibilityOption" [value]="visibility">
+            {{visibility}}
+          </mat-radio-button>
+        </mat-radio-group>
+    
+    
+        <h2>Audience Type</h2>
+        <mat-radio-group required
+        aria-labelledby="example-radio-group-label"
+        class="example-radio-group"
+        name="audience" 
+        [(ngModel)]="audience">
+        <mat-radio-button  *ngFor="let audience of audienceOption" [value]="audience">
+          {{audience}}
+        </mat-radio-button>
+      </mat-radio-group>  
+      
+    
+          <h2>Age Restriction</h2>
+          <mat-radio-group required
+          aria-labelledby="example-radio-group-label"
+          class="example-radio-group"
+          name="age" 
+          [(ngModel)]="age">
+          <mat-radio-button  *ngFor="let age of ageOption" [value]="age">
+            {{age}}
+          </mat-radio-button>
+        </mat-radio-group>  
+        
+          <h2>Tags</h2>
+          <mat-form-field class="example-chip-list" appearance="outline">
+            <mat-label>Tags</mat-label>
+            <mat-chip-list #chipList aria-label="Fruit selection" >
+              <mat-chip *ngFor="let tag of tags" (removed)="remove(tag)">
+                {{tag}}
+                <button matChipRemove>
+                  <mat-icon>cancel</mat-icon>
+                </button>
+              </mat-chip>
+              <input placeholder="Enter Tags..."
+                     [matChipInputFor]="chipList"
+                   
+                     [matChipInputAddOnBlur]="addOnBlur"
+                     (matChipInputTokenEnd)="add($event)">
+            </mat-chip-list>
+          </mat-form-field>
+    
+    
+    
+          <h2>Date Picker</h2>
+          <mat-form-field appearance="fill">
+            <mat-label>Choose a date</mat-label>
+            <input matInput [matDatepicker]="picker" name="date" [(ngModel)]="startDate">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+          
+        <div class="flex">
+          <div class="box">
+          <h2>Video Location</h2>
+          <mat-form-field appearance="outline">
+            <mat-label>Video Locations</mat-label>
+            <mat-select name="location" [(ngModel)]="location">
+              <mat-option *ngFor="let location of locations" [value]="location">
+                {{location}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="box">
+          <h2>License </h2>
+          <mat-form-field appearance="outline">
+            <mat-label>License</mat-label>
+            <mat-select name="license" [(ngModel)]="license">
+              <mat-option *ngFor="let license of licenses" [value]="license">
+                {{license}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+            <div class="box">
+            <h2>Distribution</h2>
+            <mat-form-field appearance="outline">
+                <mat-label>Distribution</mat-label>
+                <mat-select name="distribution" [(ngModel)]="distribution">
+                  <mat-option *ngFor="let distribution of distributions" [value]="distribution">
+                    {{distribution}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="box"> 
+              <h2>Video Category</h2>
+              <mat-form-field appearance="outline">
+                <mat-label>Video Category</mat-label>
+                <mat-select name="category" [(ngModel)]="category" >
+                  <mat-option *ngFor="let category of video_Category" [value]="category">
+                    {{category}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+        </div>
+    
+    
+     
+    
+            </form>
+    
+            <div class="container">
+                <h1>Video Preview</h1>
+                <mat-card>
+                    <!-- {{VideoForm.value|json}} -->
+                    <mat-card-title>Description</mat-card-title>
+                    <hr>
+                    <p>Video URl:{{videoUrl}}</p>
+                    <p>Title:{{title}}</p>
+                    <p>Description:{{description}}</p>
+                    <p>Duration:{{duration}}</p>
+                    <p>Channel:{{channel}}</p>
+                    <p>Visibility: {{visibility}}</p>
+                    <p>Distribution: {{distribution}}</p>
+                    <p>Video Category:{{category}} </p>
+                    <p>Location: {{location}}</p>
+                    <p>License:{{license}} </p>
+                    <p>Age Restriction: {{age}}</p>
+                    <p>Audience Type:{{audience}}</p>
+                    <p>Date: {{startDate}}</p>
+                    <p>Tags{{tags}}</p>
+                  </mat-card>
+            </div>
+    
+        </div>

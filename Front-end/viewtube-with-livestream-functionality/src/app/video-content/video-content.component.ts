@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { VideoService } from '../services/video.service';
 import * as moment from 'moment';
 import  'moment-duration-format';
+
 
 import  'moment-duration-format';
 
@@ -12,17 +13,27 @@ import  'moment-duration-format';
   templateUrl: './video-content.component.html',
   styleUrls: ['./video-content.component.css']
 })
-export class VideoContentComponent {
+export class VideoContentComponent implements OnInit {
 
   /* the code here subscribes to the observable providing the video list
     and additionally adds the relativeTime which gives the publish duration
     and the length of video
   */
-
+public content:any=[];
+ngOnInit(){
+  this.videoService.video$.subscribe(data=>{
+    //console.log(data);
+    this.content=data;
+  });
+console.log(this.content);
+this.video$.subscribe(data=>console.log(data));
+}
+  
   video$: Observable<Array<any>>;
   constructor(private videoService: VideoService) {
     this.video$ = this.videoService.video$.pipe(map(this.addRelativeTime));
   }
+  
 
   addRelativeTime(videos: any) {
     return videos.map((video: any) => {
